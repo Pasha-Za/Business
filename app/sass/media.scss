@@ -1,0 +1,187 @@
+//---------------------------------
+//			MEDIA QUERIES
+//---------------------------------
+@media screen and (min-width:992px) and (max-width: 1199px){
+	.help-info h2:before {
+    	left: -11px;
+    	font-size: 34px;
+    	line-height: 32px;
+	}
+	.price-table-i{
+			table td:first-child{
+					width: 75%;
+			}
+	}
+}
+@media screen and (max-width: 991px){
+	.b-logo, .b-header-phone{
+		text-align: center;
+	}
+	.b-logo{
+		margin-bottom: 20px;
+	}
+	.phone-number:before{
+		right: 450px;
+	}
+	.b-advantage-i:after{
+		content: none;
+	}
+	.b-about, .b-services{
+		margin-bottom: 25px;
+		h2{
+			margin-bottom: 15px;
+		}
+	}
+	.help-info h2:before{
+		left: 175px;
+	}
+	.info-block{
+		width: 50%;
+		float: left;
+	}
+	//about page
+	.b-facts{
+		margin-top: 25px;
+	}
+	.awards-i{
+		&:nth-child(n+1) {
+		    margin-top: 50px;
+		}
+		&:nth-child(6){
+			padding-bottom: 50px;
+				&:after{
+					content: " ";
+				}
+		}
+	}
+	//faqs
+	.faq-features-i:after{
+		content:none;
+	}
+	.call-center{
+			*{
+				margin-bottom: 20px;
+			}
+	}
+}
+
+@media screen and (max-width: 767px){
+	.home-slider{
+		margin-bottom: -4px;
+	}
+	.home-feature-i .feature-read:after {
+	    right: 0px;
+	    opacity: 0;
+	}
+	.home-contacts-inner{
+		padding: 15px;
+		text-align: center;
+	}
+	footer p.copyright{
+		padding:0 15px;
+	}
+	//about page
+	.about-facts:after{
+		width: 95%;
+	}
+	.b-about-bottom{
+			.col-sm-4:nth-child(n+2){
+					  margin-top: 25px;
+			}
+	}
+	//faqs page
+	.faq-add-info .list{
+		margin-top:10px;
+	}
+	.feedbacks input{
+		margin-bottom:20px;
+	}
+}
+
+@media screen and (max-width: 640px){
+	.home-slider h2{
+		font-size: 34px;
+		line-height: 45px;
+	}
+	.help-info h2:before {
+	    left: 90px;
+	}
+	.phone-number:before {
+	        right: 69%;
+	}
+	//faqs
+	.questions-control{
+		a.btn{
+			width:100%!important;
+			&:nth-child(n+1){
+				margin-bottom:15px;
+			}
+			&:last-child{
+				margin-bottom:0;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 480px){
+	.home-slider h2 {
+	    font-size: 29px;
+	    line-height: 40px;
+	}
+	.help-info h2:before {
+	    left: 0;
+	}
+	.b-advantages:after{
+			width: 90%;
+	}
+	//service page
+	.service-feature-list{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 320px){
+	.phone-number:before {
+	    right: 80%;
+	}
+	.home-slider {
+		display: none;
+	}
+	.help-info h2:before {
+	    font-size: 23px;
+	    line-height: 26px;
+	}
+	.info-block {
+	    width: 100%;
+	}
+	.b-testemonials blockquote cite a {
+	    font-size: 16px;
+	    line-height: 20px;
+	}
+	//about page
+	.facts-info{
+		width: 100%;
+	}
+	.about-facts:after {
+	    width: 89%;
+	}
+	//service page
+	.price-table-i{
+			table td:first-child{
+					width: 75%;
+			}
+	}
+}
+
+@media screen and (min-width: 480px) and (max-width: 1200px){
+	.b-testemonials{
+		blockquote {
+			p{
+				margin-bottom: 10px;
+			}
+			cite a{
+				line-height: 18px;
+			}
+		}
+	}
+}
